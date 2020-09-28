@@ -1,0 +1,130 @@
+/* Header */
+
+.header {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  background-color: #181818;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.start {
+  display: flex;
+  align-items: center;
+  min-width: 180px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo__title {
+  margin-left: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(243, 242, 242);
+}
+
+/* Burger Menu */
+
+.start__burger-menu {
+  height: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.start__burger-menu__point {
+  height: 2px;
+  width: 18px;
+  background-color: rgb(243, 242, 242);
+}
+
+/* // Burger Menu */
+
+/* Search */
+
+.search {
+  display: flex;
+  flex: 0 1 640px;
+}
+
+.search__form {
+  display: flex;
+  width: 100%;
+}
+
+.search__form__input {
+  height: 28px;
+  width: 100%;
+  text-indent: 5px;
+  background-color: #121212;
+  border-radius: 2px 0px 0px 2px;
+  border: solid 1px rgb(41, 40, 40);
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.884);
+}
+
+.search__form__input::placeholder {
+  color: rgb(161, 161, 161);
+}
+
+.search__form__btn {
+  height: 28px;
+  min-width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0px 2px 2px 0px;
+  background-color: #323232;
+  color: rgb(211, 211, 211);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* // Search */
+
+/* Options */
+.options {
+  height: 28px;
+  min-width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.options__element {
+  display: flex;
+  transition: 0.3s all;
+  cursor: pointer;
+  border: none;
+  margin-right: 25px;
+}
+
+.options__element:last-child {
+  margin-right: 0;
+}
+
+.options__element__img {
+  width: 16px;
+}
+
+/* // Options */
+
+/* // Header */

@@ -1,0 +1,107 @@
+/* OPTIONS */
+
+.search-results-options {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  border-bottom: solid 1px rgb(41, 40, 40);
+}
+
+.search-results-options__filter {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.search-results-options__filter__img {
+  width: 20px;
+  margin-right: 0px;
+  transform: rotate(90deg);
+}
+
+.search-results-options__filter__title {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.432);
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+/* Otions list */
+
+.search-results-options__submenu {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.search-results-options__submenu_hide {
+  height: 0;
+  visibility: hidden;
+}
+
+.search-results-options__submenu__item {
+  padding: 0 32px 0 0;
+  width: 150px;
+  max-width: 150px;
+  min-width: 140px;
+  flex: 1;
+}
+
+.search-results-options__submenu__item:last-child {
+  padding: 0;
+}
+
+.search-results-options__submenu__item__title {
+  font-size: 13px;
+  height: 46px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-bottom: solid 1px rgb(41, 40, 40);
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.search-results-options__submenu__item__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-results-options__submenu__item__list__option {
+  margin-bottom: 10px;
+  color: #aaa;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.search-results-options__submenu__item__list__option__img {
+  width: 26px;
+  height: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.active {
+  color: #fff;
+  font-weight: 500;
+}
+
+.active__sign {
+  margin-left: 10%;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+/* Otions list */
